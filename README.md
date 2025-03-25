@@ -15,7 +15,7 @@
  - https://www.amazon.se/-/en/1005005506852055/dp/B0D7CJKS4S
  - https://shopee.sg/WIFI-Mini-Car-DVR-Dash-Camera-USB-WIFI-Car-Recorder-Vedio-Car-DVR-Camera-Recorder-DashCam-for-IPhone-Android-Phone-i.1005164622.23647743187
 
-Finding 1: Unauthenticated Access of Livestream and Download of Video Recordings
+## Finding 1: Unauthenticated Access of Livestream and Download of Video Recordings
 
 **Description**: Once connected to the dashcam, an attacker can dump all video recordings via rtsp://$DASHCAM_IP:554/$filename without any further authentication. To obtain a list of video recording file names, the following steps need to be performed via API calls on port 80:
 
